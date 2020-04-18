@@ -1,0 +1,21 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@media (prefers-reduced-motion: no-preference) {
+    .app-logo {
+      animation: spin-360 infinite 20s linear;
+    }
+  }
+
+@keyframes spin-360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@tailwind utilities;
